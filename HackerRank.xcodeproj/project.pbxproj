@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B58AC0B422A2F5C300239DF8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58AC0B322A2F5C300239DF8 /* main.swift */; };
+		B58AC0BB22A2F5DB00239DF8 /* SockMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58AC0BA22A2F5DB00239DF8 /* SockMerchant.swift */; };
+		B58AC0BF22A2F8BF00239DF8 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58AC0BE22A2F8BF00239DF8 /* BaseTest.swift */; };
+		B58AC0C322A2FA3700239DF8 /* TestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58AC0C222A2FA3700239DF8 /* TestProtocol.swift */; };
+		B58AC0C622A30F6400239DF8 /* CountingValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58AC0C522A30F6400239DF8 /* CountingValleys.swift */; };
+		B58AC0C822A3158400239DF8 /* JumpingClouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58AC0C722A3158400239DF8 /* JumpingClouds.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		B58AC0B022A2F5C300239DF8 /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58AC0B322A2F5C300239DF8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B58AC0BA22A2F5DB00239DF8 /* SockMerchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchant.swift; sourceTree = "<group>"; };
+		B58AC0BE22A2F8BF00239DF8 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		B58AC0C222A2FA3700239DF8 /* TestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProtocol.swift; sourceTree = "<group>"; };
+		B58AC0C522A30F6400239DF8 /* CountingValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingValleys.swift; sourceTree = "<group>"; };
+		B58AC0C722A3158400239DF8 /* JumpingClouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingClouds.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +51,8 @@
 		B58AC0A722A2F5C300239DF8 = {
 			isa = PBXGroup;
 			children = (
-				B58AC0B222A2F5C300239DF8 /* HackerRank */,
+				B58AC0B222A2F5C300239DF8 /* Main */,
+				B58AC0C422A2FFAD00239DF8 /* Algos */,
 				B58AC0B122A2F5C300239DF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +65,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B58AC0B222A2F5C300239DF8 /* HackerRank */ = {
+		B58AC0B222A2F5C300239DF8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				B58AC0B322A2F5C300239DF8 /* main.swift */,
+				B58AC0BE22A2F8BF00239DF8 /* BaseTest.swift */,
+				B58AC0C222A2FA3700239DF8 /* TestProtocol.swift */,
 			);
-			path = HackerRank;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B58AC0C422A2FFAD00239DF8 /* Algos */ = {
+			isa = PBXGroup;
+			children = (
+				B58AC0BA22A2F5DB00239DF8 /* SockMerchant.swift */,
+				B58AC0C522A30F6400239DF8 /* CountingValleys.swift */,
+				B58AC0C722A3158400239DF8 /* JumpingClouds.swift */,
+			);
+			path = Algos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +142,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58AC0C822A3158400239DF8 /* JumpingClouds.swift in Sources */,
+				B58AC0BF22A2F8BF00239DF8 /* BaseTest.swift in Sources */,
 				B58AC0B422A2F5C300239DF8 /* main.swift in Sources */,
+				B58AC0C622A30F6400239DF8 /* CountingValleys.swift in Sources */,
+				B58AC0BB22A2F5DB00239DF8 /* SockMerchant.swift in Sources */,
+				B58AC0C322A2FA3700239DF8 /* TestProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

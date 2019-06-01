@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Hello, HackerRank!")
 
+SockMerchant().runTests()
+CountingValleys().runTests()
+JumpingClouds().runTests()
