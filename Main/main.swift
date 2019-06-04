@@ -12,4 +12,5 @@ print("Hello, HackerRank!")
 
 //SockMerchant().runTests()
 //CountingValleys().runTests()
-JumpingClouds().runTests()
+//JumpingClouds().runTests()
+RepeatedString().runTests()

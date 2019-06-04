@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13BA8A9222A63CFD00A42F9D /* RepeatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BA8A9122A63CFD00A42F9D /* RepeatedString.swift */; };
 		B58AC0B422A2F5C300239DF8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58AC0B322A2F5C300239DF8 /* main.swift */; };
 		B58AC0BB22A2F5DB00239DF8 /* SockMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58AC0BA22A2F5DB00239DF8 /* SockMerchant.swift */; };
 		B58AC0BF22A2F8BF00239DF8 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58AC0BE22A2F8BF00239DF8 /* BaseTest.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13BA8A9122A63CFD00A42F9D /* RepeatedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedString.swift; sourceTree = "<group>"; };
 		B58AC0B022A2F5C300239DF8 /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58AC0B322A2F5C300239DF8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B58AC0BA22A2F5DB00239DF8 /* SockMerchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchant.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				B58AC0BA22A2F5DB00239DF8 /* SockMerchant.swift */,
 				B58AC0C522A30F6400239DF8 /* CountingValleys.swift */,
 				B58AC0C722A3158400239DF8 /* JumpingClouds.swift */,
+				13BA8A9122A63CFD00A42F9D /* RepeatedString.swift */,
 			);
 			path = Algos;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			files = (
 				B58AC0C822A3158400239DF8 /* JumpingClouds.swift in Sources */,
 				B58AC0BF22A2F8BF00239DF8 /* BaseTest.swift in Sources */,
+				13BA8A9222A63CFD00A42F9D /* RepeatedString.swift in Sources */,
 				B58AC0B422A2F5C300239DF8 /* main.swift in Sources */,
 				B58AC0C622A30F6400239DF8 /* CountingValleys.swift in Sources */,
 				B58AC0BB22A2F5DB00239DF8 /* SockMerchant.swift in Sources */,
