@@ -17,17 +17,38 @@ class JumpingClouds : BaseTest, TestProtocol {
         testName = "JumpingClouds"
     }
     
+
     // Complete the jumpingOnClouds function below.
     func jumpingOnClouds(c: [Int]) -> Int {
-        return 0
+        var jumps = 0
+        var pos = 0
+        while pos != c.count-1 {
+            if pos+2 < c.count {
+                pos = c[pos+2] == 1 ? pos+1 : pos+2
+                jumps = jumps+1
+            }
+            else {
+                if pos+1 < c.count {
+                    jumps = jumps+1
+                }
+                pos = pos+1
+            }
+        }
+        return jumps
     }
-
+    
     override func test() -> Bool{
         var expected : Int
         var pass : Bool
 
-        expected = 4
-        pass = self.jumpingOnClouds(c: [0, 0, 1, 0, 0, 1, 0,]) == expected
+        expected = 3
+        pass = self.jumpingOnClouds(c: [0, 0, 0, 1, 0, 0]) == expected
+        if !pass {
+            return false
+        }
+
+        expected = 3
+        pass = self.jumpingOnClouds(c: [0, 1, 0, 0, 0, 1, 0]) == expected
         if !pass {
             return false
         }

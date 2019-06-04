@@ -10,6 +10,6 @@ import Foundation
 
 print("Hello, HackerRank!")
 
-SockMerchant().runTests()
-CountingValleys().runTests()
+//SockMerchant().runTests()
+//CountingValleys().runTests()
 JumpingClouds().runTests()
